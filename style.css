@@ -1,10 +1,27 @@
-body{
-    background:lightgreen;
+body {
+    background: lightgreen;
+
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+li {
+    font-family: 'Patua One', cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+.description {
     
 }
-h1{
-   font-family:'Permanent Marker', cursive;
-}
-li{
- font-family: 'Patua One', cursive;
+
+#alien {
+    border: 1px black solid;
+    background-color: white;
+    width: 300px;
+    height: 400px;
 }
