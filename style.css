@@ -8,30 +8,38 @@ h1 {
     text-align: center;
 }
 
-#alien {
-    background-color: white;
-    border: 5px solid black;
-    position: absolute;
-    float: left;
+.content {
+   font-family: 'Piedra', cursive;
+    left: 200px;
+    text-align: center;
+    padding: 5px;
+
 }
 
-.content {
-    padding: 4px;
-    font-family: 'Freckle Face', cursive;
-    left: 200px;
+
+#alien {
+    padding: 23.5px 30px;
+    background-color: white;
+    border: 5px solid black;
+    margin-left: 1px;
+float:left;
 }
 
 #saucer {
-    border: 1px black solid;
-    background-color: white;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
     border: 5px solid black;
-    display: inline;
+    margin-left: 10px;
+    float:right;
+}
+
+.frame {
+    text-align: center;
 }
 
 .input {
     text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+span {
+    color: red;
 }
