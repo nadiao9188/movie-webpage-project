@@ -6,29 +6,43 @@ body {
 h1 {
     font-family: 'Permanent Marker', cursive;
     text-align: center;
+    position: relative;
 }
 
 .content {
-   font-family: 'Piedra', cursive;
-    left: 200px;
+    font-family: 'Piedra', cursive;
     text-align: center;
-    padding: 5px;
-
 }
 
-
 #alien {
-    padding: 23.5px 30px;
     background-color: white;
     border: 5px solid black;
-    margin-left: 1px;
-float:left;
+    padding: 10px;
+    position: absolute;
+    width: 108px;
+    top: 0px;
+    left: 0;
 }
 
 #saucer {
     border: 5px solid black;
-    margin-left: 10px;
-    float:right;
+    position: absolute;
+    width: 130px;
+    top: 0px;
+    right: 0;
+}
+
+#earth {
+    width: 200px;
+    height: 150.09375px;
+    float: left;
+    margin-top: 50px;
+}
+
+#space {
+    width: 200px;
+    float: right;
+    margin-top: 50px;
 }
 
 .frame {
@@ -42,4 +56,6 @@ float:left;
 
 span {
     color: red;
+    font-size: 33px;
 }
+
